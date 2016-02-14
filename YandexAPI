@@ -9,9 +9,11 @@ import com.rmtheis.yandtran.translate.Translate;
 public class YandexCeviri {
     public static void main(String[] args) throws Exception {
         Translate.setKey("trnsl.1.1.20151227T232324Z.6a3d466476c2cb8b.328ab0109adc57b0d72fce8867bfa7501a1fa507");
+        // use your Yandex Translator API key here!
         
         try {
 			File file = new File("C:/Users/Onur/Desktop/sentences.txt");
+			// use your own path that includes the file!
 			FileReader fileReader = new FileReader(file);
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			StringBuffer stringBuffer = new StringBuffer();
